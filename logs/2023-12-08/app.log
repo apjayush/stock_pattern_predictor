@@ -1,0 +1,1345 @@
+[E 231208 00:33:42 historical_data:100] Error in checking pattern for token 14058: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:42 historical_data:100] Error in checking pattern for token 3405: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:42 historical_data:100] Error in checking pattern for token 28859: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:42 historical_data:100] Error in checking pattern for token 14116: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:43 historical_data:100] Error in checking pattern for token 7218: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:43 historical_data:100] Error in checking pattern for token 14003: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:43 historical_data:100] Error in checking pattern for token 13404: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 00:33:43 historical_data:100] Error in checking pattern for token 20223: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:43 historical_data:100] Error in checking pattern for token 8632: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:43 historical_data:100] Error in checking pattern for token 2307: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:44 historical_data:100] Error in checking pattern for token 1949: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:44 historical_data:100] Error in checking pattern for token 10604: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 00:33:44 historical_data:100] Error in checking pattern for token 25512: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 00:33:44 historical_data:100] Error in checking pattern for token 9436: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 00:33:44 historical_data:100] Error in checking pattern for token 3509: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 00:33:44 historical_data:100] Error in checking pattern for token 19646: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:44 historical_data:100] Error in checking pattern for token 27107: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:45 historical_data:100] Error in checking pattern for token 10440: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:45 historical_data:100] Error in checking pattern for token 21478: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:45 historical_data:100] Error in checking pattern for token 1044: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 00:33:45 historical_data:100] Error in checking pattern for token 18908: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 00:33:45 historical_data:100] Error in checking pattern for token 14982: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 00:33:45 historical_data:100] Error in checking pattern for token 3987: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:46 historical_data:100] Error in checking pattern for token 13423: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:46 historical_data:100] Error in checking pattern for token 13501: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 94, in check_bullish_engulfing
+        close_prices = candle_data['data']['candles'][0]['close']
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 00:33:46 historical_data:100] Error in checking pattern for token 20425: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[I 231208 00:46:47 demo:61] Logout Successfull
+[E 231208 00:47:42 demo:58] Historic Api failed: 'dict' object has no attribute 'data'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo.py", line 56, in <module>
+        print(data.data)
+              ^^^^^^^^^
+    AttributeError: 'dict' object has no attribute 'data'
+[E 231208 01:18:47 demo:62] Historic Api failed: can only concatenate str (not "float") to str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo.py", line 60, in <module>
+        print("Open" + " : " + item[4])
+              ~~~~~~~~~~~~~~~^~~~~~~~~
+    TypeError: can only concatenate str (not "float") to str
+[E 231208 01:25:44 demo:64] Historic Api failed: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo.py", line 58, in <module>
+        for item in data["data"]:
+                    ~~~~^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 01:25:49 demo:64] Historic Api failed: list indices must be integers or slices, not str
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo.py", line 58, in <module>
+        for item in data["data"]:
+                    ~~~~^^^^^^^^
+    TypeError: list indices must be integers or slices, not str
+[E 231208 01:35:24 historical_data:105] Error in checking pattern for token 8632: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:35:24 historical_data:105] Error in checking pattern for token 2307: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:35:24 historical_data:105] Error in checking pattern for token 1949: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:35:25 historical_data:105] Error in checking pattern for token 3509: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:35:25 historical_data:105] Error in checking pattern for token 19646: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:35:26 historical_data:105] Error in checking pattern for token 14982: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:35:26 historical_data:105] Error in checking pattern for token 3987: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:36:40 historical_data:105] Error in checking pattern for token 20223: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:10 historical_data:105] Error in checking pattern for token 13404: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:11 historical_data:105] Error in checking pattern for token 9436: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:12 historical_data:105] Error in checking pattern for token 10440: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:13 historical_data:105] Error in checking pattern for token 13423: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:13 historical_data:105] Error in checking pattern for token 13501: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:14 historical_data:105] Error in checking pattern for token 19113: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:14 historical_data:105] Error in checking pattern for token 5186: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:15 historical_data:105] Error in checking pattern for token 14218: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:17 historical_data:105] Error in checking pattern for token 1628: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:40:18 historical_data:105] Error in checking pattern for token 13890: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:48:25 historical_data:106] Error in checking pattern for token 380: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 01:48:26 historical_data:106] Error in checking pattern for token 12092: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 84, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:03:01 historical_data:109] Error in checking pattern for token 20223: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 88, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:03:02 historical_data:109] Error in checking pattern for token 25512: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 88, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:03:23 historical_data:109] Error in checking pattern for token 14912: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 88, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:03:25 historical_data:109] Error in checking pattern for token 21501: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 88, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:03:33 historical_data:109] Error in checking pattern for token 7145: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 88, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:03:35 historical_data:109] Error in checking pattern for token 13658: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 88, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:03:38 historical_data:109] Error in checking pattern for token 4299: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 88, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:03:53 historical_data:109] Error in checking pattern for token 7218: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 196, in _request
+        data = json.loads(r.content.decode("utf8"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+        return _default_decoder.decode(s)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 88, in check_bullish_engulfing
+        candle_data = smartApi.getCandleData(historicParam)["data"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 430, in getCandleData
+        getCandleDataResponse=self._postRequest("api.candle.data",historicDataParams)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 228, in _postRequest
+        return self._request(route, "POST", params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/venv/lib/python3.11/site-packages/SmartApi/smartConnect.py", line 199, in _request
+        raise ex.DataException("Couldn't parse the JSON response received from the server: {content}".format(
+    SmartApi.smartExceptions.DataException: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+[E 231208 02:14:02 historical_data:109] Error in checking pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 90, in check_bullish_engulfing
+        if(candle_data[1][1]<= candle_data[0][4] and candle_data[1][4]>candle_data[0][1]):
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 02:14:13 historical_data:109] Error in checking pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 90, in check_bullish_engulfing
+        if(candle_data[1][1]<= candle_data[0][4] and candle_data[1][4]>candle_data[0][1]):
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 02:14:56 historical_data:109] Error in checking pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 90, in check_bullish_engulfing
+        if(candle_data[1][1]<= candle_data[0][4] and candle_data[1][4]>candle_data[0][1]):
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 02:16:16 historical_data:109] Error in checking pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 90, in check_bullish_engulfing
+        if(candle_data[1][1]<= candle_data[0][4] and candle_data[1][4]>candle_data[0][1]):
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 14:19:11 historical_data:104] Error in checking pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 14:20:00 historical_data:104] Error in checking pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 14:52:15 historical_data:104] Error in checking pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 14:53:04 historical_data:104] Error in checking pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 14:55:47 historical_data:104] Error in checking pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 14:56:36 historical_data:104] Error in checking pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 15:02:01 historical_data:104] Error in checking pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 15:02:52 historical_data:104] Error in checking pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 15:04:44 historical_data:104] Error in checking pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 15:05:32 historical_data:104] Error in checking pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/historical_data.py", line 92, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 20:03:02 indicators:146] Error in checking pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 134, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 20:03:02 indicators:107] Error in checking hammer pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 92, in check_hammer_pattern
+        body = abs(candle_data[-1][1] - candle_data[-1][4])
+                   ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 20:04:45 indicators:146] Error in checking pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 134, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-2][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231208 20:04:46 indicators:107] Error in checking hammer pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 92, in check_hammer_pattern
+        body = abs(candle_data[-1][1] - candle_data[-1][4])
+                   ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable

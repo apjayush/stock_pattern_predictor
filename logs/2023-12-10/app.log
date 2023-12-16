@@ -1,0 +1,258 @@
+[E 231210 01:25:26 indicators:155] Error in checking pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:25:27 indicators:114] Error in checking hammer pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:27:08 indicators:155] Error in checking pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:27:09 indicators:114] Error in checking hammer pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:30:59 indicators:155] Error in checking pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:30:59 indicators:114] Error in checking hammer pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:32:37 indicators:155] Error in checking pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:32:38 indicators:114] Error in checking hammer pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:33:11 indicators:155] Error in checking pattern for token 14767: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:33:12 indicators:114] Error in checking hammer pattern for token 14767: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:34:11 indicators:155] Error in checking pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:34:12 indicators:114] Error in checking hammer pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:36:02 indicators:155] Error in checking pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:36:02 indicators:114] Error in checking hammer pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:37:06 indicators:155] Error in checking pattern for token 14778: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:37:07 indicators:114] Error in checking hammer pattern for token 14778: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:43:58 indicators:155] Error in checking pattern for token 12848: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:43:59 indicators:114] Error in checking hammer pattern for token 12848: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:44:41 indicators:155] Error in checking pattern for token 12841: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:44:41 indicators:114] Error in checking hammer pattern for token 12841: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:48:09 indicators:155] Error in checking pattern for token 24217: list index out of range
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+                               ~~~~~~~~~~~^^^
+    IndexError: list index out of range
+[E 231210 01:48:10 indicators:114] Error in checking hammer pattern for token 24217: list index out of range
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 100, in check_hammer_pattern
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+                               ~~~~~~~~~~~^^^
+    IndexError: list index out of range
+[E 231210 01:51:48 indicators:155] Error in checking pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:51:49 indicators:114] Error in checking hammer pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:52:34 indicators:155] Error in checking pattern for token 14772: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:52:35 indicators:114] Error in checking hammer pattern for token 14772: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:56:47 indicators:155] Error in checking pattern for token 14747: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:56:48 indicators:114] Error in checking hammer pattern for token 14747: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:57:25 indicators:155] Error in checking pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 01:57:25 indicators:114] Error in checking hammer pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 02:02:14 indicators:155] Error in checking pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 02:02:15 indicators:114] Error in checking hammer pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 02:03:56 indicators:155] Error in checking pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 139, in check_bullish_engulfing
+        previous_trend = previous_pattern(candle_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 76, in previous_pattern
+        if(candle_data[0][4] - candle_data[3][4]) > 0:
+           ~~~~~~~~~~~^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231210 02:03:56 indicators:114] Error in checking hammer pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/indicators.py", line 96, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
