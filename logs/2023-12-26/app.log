@@ -1,0 +1,834 @@
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14753: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14764: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14774: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 12842: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14781: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14781: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14781: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14781: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14781: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14781: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14767: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14767: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14767: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14767: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14767: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14767: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 12848: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 12848: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 12848: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 12848: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 12848: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 12848: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14758: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14777: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14751: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14751: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14751: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14751: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14751: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14751: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 12841: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 12841: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 12841: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 12841: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 12841: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 12841: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14769: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14769: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14769: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14769: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14769: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14769: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14784: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14784: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14784: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14784: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14784: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14784: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 12863: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 12863: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 12863: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 12863: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 12863: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 12863: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14782: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14747: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14747: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14747: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14747: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14747: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14747: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14778: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14778: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14778: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14778: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14778: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14778: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14762: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14762: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14762: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14762: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14762: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14762: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:179] Error in checking bullish engulfing pattern for token 14772: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 162, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:152] Error in checking hammer pattern for token 14772: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 142, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:134] Error in checking gap-up pattern for token 14772: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 123, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:197] Error in checking Doji pattern for token 14772: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 188, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:250] Error in checking Doji pattern for token 14772: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 238, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 02:37:23 demo2:230] Error in checking Doji pattern for token 14772: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 205, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:06:53 demo2:175] Error in checking bullish engulfing pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 158, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:06:53 demo2:148] Error in checking hammer pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 138, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:06:53 demo2:130] Error in checking gap-up pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 119, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:06:53 demo2:193] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 184, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:06:53 demo2:246] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 234, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:06:53 demo2:226] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 201, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:08:27 demo2:175] Error in checking bullish engulfing pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 158, in check_bullish_engulfing
+        last_green_candle = candle_data[-1][4] - candle_data[-1][1]
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:08:27 demo2:148] Error in checking hammer pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 138, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:08:27 demo2:130] Error in checking gap-up pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 119, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:08:27 demo2:193] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 184, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:08:27 demo2:246] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 234, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:08:27 demo2:226] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 201, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:10:03 demo2:148] Error in checking hammer pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 138, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:10:03 demo2:130] Error in checking gap-up pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 119, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:10:03 demo2:194] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 185, in check_doji_pattern
+        price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
+                               ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:10:03 demo2:247] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 235, in bullish_piercing_pattern
+        open_price, close_price = candle_data[-2][1], candle_data[-2][4]   #this is for candle before current
+                                  ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:10:03 demo2:227] Error in checking Doji pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 202, in bullish_harami_pattern
+        previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
+                            ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:10:54 demo2:148] Error in checking hammer pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 138, in check_hammer_pattern
+        body = (candle_data[-1][4] - candle_data[-1][1])
+                ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable
+[E 231226 03:10:54 demo2:130] Error in checking gap-up pattern for token 14755: 'NoneType' object is not subscriptable
+    Traceback (most recent call last):
+      File "/home/ayush/Desktop/angelone_smartapi/angelOne/demo2.py", line 119, in gapup_pattern
+        current_open = candle_data[-1][1]
+                       ~~~~~~~~~~~^^^^
+    TypeError: 'NoneType' object is not subscriptable

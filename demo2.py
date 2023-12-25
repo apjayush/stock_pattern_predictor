@@ -88,8 +88,8 @@ else:
                 "exchange": "NSE",
                 "symboltoken": data["token"],
                 "interval": "ONE_DAY",
-                "fromdate": "2023-08-15 09:30",
-                "todate": "2023-12-15 15:30"
+                "fromdate": "2023-10-15 09:30",
+                "todate": "2023-12-22 15:30"
             }
             candle_data = smartApi.getCandleData(historicParam)["data"]
             historic_data[data["token"]] = candle_data
@@ -127,8 +127,9 @@ else:
                     return False
 
             except Exception as e:
-                logger.exception(f"Error in checking gap-up pattern for token {token}: {e}")
-                return False
+                # logger.exception(f"Error in checking gap-up pattern for token {token}: {e}")
+                # return False
+                pass
 
         # Function to check for the hammer pattern
         def check_hammer_pattern(token, historic_data):
@@ -145,8 +146,9 @@ else:
                     return False
 
             except Exception as e:
-                logger.exception(f"Error in checking hammer pattern for token {token}: {e}")
-                return False
+                # logger.exception(f"Error in checking hammer pattern for token {token}: {e}")
+                # return False
+                pass
 
         # Function to check for the bullish engulfing pattern
         def check_bullish_engulfing(token, historic_data):
@@ -172,8 +174,9 @@ else:
                     return False
 
             except Exception as e:
-                logger.exception(f"Error in checking bullish engulfing pattern for token {token}: {e}")
-                return False
+                # logger.exception(f"Error in checking bullish engulfing pattern for token {token}: {e}")
+                # return False
+                pass
             
 
         def check_doji_pattern(token, historic_data):
@@ -190,8 +193,7 @@ else:
                     return False
 
             except Exception as e:
-                logger.exception(f"Error in checking Doji pattern for token {token}: {e}")
-                return False
+                pass
             
 
         def bullish_harami_pattern(token, historic_data):
@@ -223,8 +225,7 @@ else:
                     return False
 
             except Exception as e:
-                logger.exception(f"Error in checking Doji pattern for token {token}: {e}")
-                return False
+                pass
             
 
         def bullish_piercing_pattern(token, historic_data):
@@ -243,9 +244,9 @@ else:
                     return False
 
             except Exception as e:
-                logger.exception(f"Error in checking Doji pattern for token {token}: {e}")
-                return False
-    
+                # logger.exception(f"Error in checking Doji pattern for token {token}: {e}")
+                # return False
+                pass
 
         # ... (rest of your code remains the same)
 
