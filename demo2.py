@@ -6,6 +6,8 @@ import os
 import requests
 import time 
 import json
+import datetime as dt
+from retry import retry
 
 start_time = time.time()
 
@@ -76,7 +78,12 @@ else:
             if(candle_data[0][4] - candle_data[-1][4]) > 0:
                 return True
             else:
-                return False            
+                return False 
+
+        @retry(exceptions=(requests.exceptions.RequestException), tries=5, delay=2, backoff=2)
+        def fetch_candle_data(historicParam):
+            # Your code to fetch historical data here
+            return smartApi.getCandleData(historicParam)["data"]            
 
         # Fetch historical data for all tokens to avoid redundant API calls
         historic_data = {}
@@ -88,10 +95,11 @@ else:
                 "exchange": "NSE",
                 "symboltoken": data["token"],
                 "interval": "ONE_DAY",
-                "fromdate": "2023-10-15 09:30",
-                "todate": "2023-12-22 15:30"
+                "fromdate": "2023-12-15 09:30",
+                "todate": "2024-01-10 15:30"
             }
-            candle_data = smartApi.getCandleData(historicParam)["data"]
+            # candle_data = smartApi.getCandleData(historicParam)["data"]
+            candle_data = fetch_candle_data(historicParam)
             historic_data[data["token"]] = candle_data
             # print(historic_data)
             
@@ -104,7 +112,7 @@ else:
             print("Tokens left : ", tokens_left)
             # print(len(tokens_to_check))
 
-            time.sleep(0.2)
+            time.sleep(0.18)
 
         # Save historic_data to a JSON file after the for loop completion, overwriting the existing file
         with open('historic_data.json', 'w') as outfile:
@@ -128,8 +136,8 @@ else:
 
             except Exception as e:
                 # logger.exception(f"Error in checking gap-up pattern for token {token}: {e}")
-                # return False
-                pass
+                return False
+                
 
         # Function to check for the hammer pattern
         def check_hammer_pattern(token, historic_data):
@@ -147,8 +155,8 @@ else:
 
             except Exception as e:
                 # logger.exception(f"Error in checking hammer pattern for token {token}: {e}")
-                # return False
-                pass
+                return False
+                # pass
 
         # Function to check for the bullish engulfing pattern
         def check_bullish_engulfing(token, historic_data):
@@ -175,8 +183,8 @@ else:
 
             except Exception as e:
                 # logger.exception(f"Error in checking bullish engulfing pattern for token {token}: {e}")
-                # return False
-                pass
+                return False
+                # pass
             
 
         def check_doji_pattern(token, historic_data):
@@ -193,7 +201,7 @@ else:
                     return False
 
             except Exception as e:
-                pass
+                return False
             
 
         def bullish_harami_pattern(token, historic_data):
@@ -225,7 +233,8 @@ else:
                     return False
 
             except Exception as e:
-                pass
+                return False
+                # pass
             
 
         def bullish_piercing_pattern(token, historic_data):
@@ -245,8 +254,8 @@ else:
 
             except Exception as e:
                 # logger.exception(f"Error in checking Doji pattern for token {token}: {e}")
-                # return False
-                pass
+                return False
+                # pass
 
         # ... (rest of your code remains the same)
 
