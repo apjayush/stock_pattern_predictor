@@ -1,0 +1,1006 @@
+[
+    {
+      "symbol": "3MINDIA",
+      "token": "474"
+    },
+    {
+      "symbol": "ABB",
+      "token": "13"
+    },
+    {
+      "symbol": "ACC",
+      "token": "22"
+    },
+    {
+      "symbol": "AIAENG",
+      "token": "13086"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "token": "25780"
+    },
+    {
+      "symbol": "AUBANK",
+      "token": "21238"
+    },
+    {
+      "symbol": "AARTIIND",
+      "token": "7"
+    },
+    {
+      "symbol": "ABBOTINDIA",
+      "token": "17903"
+    },
+    {
+      "symbol": "ADANIENSOL",
+      "token": "10217"
+    },
+    {
+      "symbol": "ADANIENT",
+      "token": "25"
+    },
+    {
+      "symbol": "ADANIGREEN",
+      "token": "3563"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "token": "15083"
+    },
+    {
+      "symbol": "ADANIPOWER",
+      "token": "17388"
+    },
+    {
+      "symbol": "ATGL",
+      "token": "6066"
+    },
+    {
+      "symbol": "AWL",
+      "token": "8110"
+    },
+    {
+      "symbol": "ABCAPITAL",
+      "token": "21614"
+    },
+    {
+      "symbol": "ABFRL",
+      "token": "30108"
+    },
+    {
+      "symbol": "AJANTPHARM",
+      "token": "8124"
+    },
+    {
+      "symbol": "ALKEM",
+      "token": "11703"
+    },
+    {
+      "symbol": "AMBUJACEM",
+      "token": "1270"
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "token": "157"
+    },
+    {
+      "symbol": "APOLLOTYRE",
+      "token": "163"
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "token": "212"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "token": "236"
+    },
+    {
+      "symbol": "ASTRAL",
+      "token": "14418"
+    },
+    {
+      "symbol": "ATUL",
+      "token": "263"
+    },
+    {
+      "symbol": "AUROPHARMA",
+      "token": "275"
+    },
+    {
+      "symbol": "DMART",
+      "token": "19913"
+    },
+    {
+      "symbol": "AXISBANK",
+      "token": "5900"
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "token": "16669"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "token": "317"
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "token": "16675"
+    },
+    {
+      "symbol": "BAJAJHLDNG",
+      "token": "305"
+    },
+    {
+      "symbol": "BALKRISIND",
+      "token": "335"
+    },
+    {
+      "symbol": "BANDHANBNK",
+      "token": "2263"
+    },
+    {
+      "symbol": "BANKBARODA",
+      "token": "4668"
+    },
+    {
+      "symbol": "BANKINDIA",
+      "token": "4745"
+    },
+    {
+      "symbol": "MAHABANK",
+      "token": "11377"
+    },
+    {
+      "symbol": "BATAINDIA",
+      "token": "371"
+    },
+    {
+      "symbol": "BAYERCROP",
+      "token": "17927"
+    },
+    {
+      "symbol": "BERGEPAINT",
+      "token": "404"
+    },
+    {
+      "symbol": "BDL",
+      "token": "2144"
+    },
+    {
+      "symbol": "BEL",
+      "token": "383"
+    },
+    {
+      "symbol": "BHARATFORG",
+      "token": "422"
+    },
+    {
+      "symbol": "BHEL",
+      "token": "438"
+    },
+    {
+      "symbol": "BPCL",
+      "token": "526"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "token": "10604"
+    },
+    {
+      "symbol": "BIOCON",
+      "token": "11373"
+    },
+    {
+      "symbol": "BLUEDART",
+      "token": "495"
+    },
+    {
+      "symbol": "BOSCHLTD",
+      "token": "2181"
+    },
+    {
+      "symbol": "BRITANNIA",
+      "token": "547"
+    },
+    {
+      "symbol": "CGPOWER",
+      "token": "760"
+    },
+    {
+      "symbol": "CRISIL",
+      "token": "757"
+    },
+    {
+      "symbol": "CANBK",
+      "token": "10794"
+    },
+    {
+      "symbol": "CARBORUNIV",
+      "token": "595"
+    },
+    {
+      "symbol": "CHOLAFIN",
+      "token": "685"
+    },
+    {
+      "symbol": "CIPLA",
+      "token": "694"
+    },
+    {
+      "symbol": "COALINDIA",
+      "token": "20374"
+    },
+    {
+      "symbol": "COFORGE",
+      "token": "11543"
+    },
+    {
+      "symbol": "COLPAL",
+      "token": "15141"
+    },
+    {
+      "symbol": "CONCOR",
+      "token": "4749"
+    },
+    {
+      "symbol": "COROMANDEL",
+      "token": "739"
+    },
+    {
+      "symbol": "CROMPTON",
+      "token": "17094"
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "token": "1901"
+    },
+    {
+      "symbol": "DLF",
+      "token": "14732"
+    },
+    {
+      "symbol": "DABUR",
+      "token": "772"
+    },
+    {
+      "symbol": "DALBHARAT",
+      "token": "8075"
+    },
+    {
+      "symbol": "DEEPAKNTR",
+      "token": "19943"
+    },
+    {
+      "symbol": "DELHIVERY",
+      "token": "9599"
+    },
+    {
+      "symbol": "DEVYANI",
+      "token": "5373"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "token": "10940"
+    },
+    {
+      "symbol": "DIXON",
+      "token": "21690"
+    },
+    {
+      "symbol": "LALPATHLAB",
+      "token": "11654"
+    },
+    {
+      "symbol": "DRREDDY",
+      "token": "881"
+    },
+    {
+      "symbol": "EICHERMOT",
+      "token": "910"
+    },
+    {
+      "symbol": "EMAMILTD",
+      "token": "13517"
+    },
+    {
+      "symbol": "ENDURANCE",
+      "token": "18822"
+    },
+    {
+      "symbol": "ESCORTS",
+      "token": "958"
+    },
+    {
+      "symbol": "NYKAA",
+      "token": "6545"
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "token": "1023"
+    },
+    {
+      "symbol": "FACT",
+      "token": "1008"
+    },
+    {
+      "symbol": "FORTIS",
+      "token": "14592"
+    },
+    {
+      "symbol": "GAIL",
+      "token": "4717"
+    },
+    {
+      "symbol": "GMRINFRA",
+      "token": "13528"
+    },
+    {
+      "symbol": "GICRE",
+      "token": "277"
+    },
+    {
+      "symbol": "GLAND",
+      "token": "1186"
+    },
+    {
+      "symbol": "GLAXO",
+      "token": "1153"
+    },
+    {
+      "symbol": "GODREJCP",
+      "token": "10099"
+    },
+    {
+      "symbol": "GODREJIND",
+      "token": "10925"
+    },
+    {
+      "symbol": "GODREJPROP",
+      "token": "17875"
+    },
+    {
+      "symbol": "GRASIM",
+      "token": "1232"
+    },
+    {
+      "symbol": "GRINDWELL",
+      "token": "13560"
+    },
+    {
+      "symbol": "FLUOROCHEM",
+      "token": "13750"
+    },
+    {
+      "symbol": "GUJGASLTD",
+      "token": "10599"
+    },
+    {
+      "symbol": "HCLTECH",
+      "token": "7229"
+    },
+    {
+      "symbol": "HDFCAMC",
+      "token": "4244"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "token": "1333"
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "token": "467"
+    },
+    {
+      "symbol": "HAVELLS",
+      "token": "9819"
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "token": "1348"
+    },
+    {
+      "symbol": "HINDALCO",
+      "token": "1363"
+    },
+    {
+      "symbol": "HAL",
+      "token": "2303"
+    },
+    {
+      "symbol": "HINDPETRO",
+      "token": "1406"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "token": "1394"
+    },
+    {
+      "symbol": "HINDZINC",
+      "token": "1424"
+    },
+    {
+      "symbol": "HONAUT",
+      "token": "3417"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "token": "4963"
+    },
+    {
+      "symbol": "ICICIGI",
+      "token": "21770"
+    },
+    {
+      "symbol": "ICICIPRULI",
+      "token": "18652"
+    },
+    {
+      "symbol": "ISEC",
+      "token": "2489"
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "token": "11184"
+    },
+    {
+      "symbol": "ITC",
+      "token": "1660"
+    },
+    {
+      "symbol": "INDIANB",
+      "token": "14309"
+    },
+    {
+      "symbol": "INDHOTEL",
+      "token": "1512"
+    },
+    {
+      "symbol": "IOC",
+      "token": "1624"
+    },
+    {
+      "symbol": "IRCTC",
+      "token": "13611"
+    },
+    {
+      "symbol": "IRFC",
+      "token": "2029"
+    },
+    {
+      "symbol": "IGL",
+      "token": "11262"
+    },
+    {
+      "symbol": "INDUSTOWER",
+      "token": "29135"
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "token": "5258"
+    },
+    {
+      "symbol": "NAUKRI",
+      "token": "13751"
+    },
+    {
+      "symbol": "INFY",
+      "token": "1594"
+    },
+    {
+      "symbol": "INDIGO",
+      "token": "11195"
+    },
+    {
+      "symbol": "IPCALAB",
+      "token": "1633"
+    },
+    {
+      "symbol": "JKCEMENT",
+      "token": "13270"
+    },
+    {
+      "symbol": "JSWENERGY",
+      "token": "17869"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "token": "11723"
+    },
+    {
+      "symbol": "JSL",
+      "token": "11236"
+    },
+    {
+      "symbol": "JINDALSTEL",
+      "token": "6733"
+    },
+    {
+      "symbol": "JUBLFOOD",
+      "token": "18096"
+    },
+    {
+      "symbol": "KPRMILL",
+      "token": "14912"
+    },
+    {
+      "symbol": "KPITTECH",
+      "token": "9683"
+    },
+    {
+      "symbol": "KAJARIACER",
+      "token": "1808"
+    },
+    {
+      "symbol": "KANSAINER",
+      "token": "1196"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "token": "1922"
+    },
+    {
+      "symbol": "L&TFH",
+      "token": "24948"
+    },
+    {
+      "symbol": "LTTS",
+      "token": "18564"
+    },
+    {
+      "symbol": "LICHSGFIN",
+      "token": "1997"
+    },
+    {
+      "symbol": "LTIM",
+      "token": "17818"
+    },
+    {
+      "symbol": "LT",
+      "token": "11483"
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "token": "19234"
+    },
+    {
+      "symbol": "LICI",
+      "token": "9480"
+    },
+    {
+      "symbol": "LINDEINDIA",
+      "token": "1627"
+    },
+    {
+      "symbol": "LUPIN",
+      "token": "10440"
+    },
+    {
+      "symbol": "MRF",
+      "token": "2277"
+    },
+    {
+      "symbol": "LODHA",
+      "token": "3220"
+    },
+    {
+      "symbol": "M&MFIN",
+      "token": "13285"
+    },
+    {
+      "symbol": "M&M",
+      "token": "2031"
+    },
+    {
+      "symbol": "MANKIND",
+      "token": "15380"
+    },
+    {
+      "symbol": "MARICO",
+      "token": "4067"
+    },
+    {
+      "symbol": "MARUTI",
+      "token": "10999"
+    },
+    {
+      "symbol": "MFSL",
+      "token": "2142"
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "token": "22377"
+    },
+    {
+      "symbol": "MAZDOCK",
+      "token": "509"
+    },
+    {
+      "symbol": "METROBRAND",
+      "token": "7242"
+    },
+    {
+      "symbol": "MSUMI",
+      "token": "8596"
+    },
+    {
+      "symbol": "MPHASIS",
+      "token": "4503"
+    },
+    {
+      "symbol": "MUTHOOTFIN",
+      "token": "23650"
+    },
+    {
+      "symbol": "NHPC",
+      "token": "17400"
+    },
+    {
+      "symbol": "NMDC",
+      "token": "15332"
+    },
+    {
+      "symbol": "NTPC",
+      "token": "11630"
+    },
+    {
+      "symbol": "NAVINFLUOR",
+      "token": "14672"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "token": "17963"
+    },
+    {
+      "symbol": "OBEROIRLTY",
+      "token": "20242"
+    },
+    {
+      "symbol": "ONGC",
+      "token": "2475"
+    },
+    {
+      "symbol": "OIL",
+      "token": "17438"
+    },
+    {
+      "symbol": "PAYTM",
+      "token": "6705"
+    },
+    {
+      "symbol": "OFSS",
+      "token": "10738"
+    },
+    {
+      "symbol": "POLICYBZR",
+      "token": "6656"
+    },
+    {
+      "symbol": "PIIND",
+      "token": "24184"
+    },
+    {
+      "symbol": "PAGEIND",
+      "token": "14413"
+    },
+    {
+      "symbol": "PATANJALI",
+      "token": "17029"
+    },
+    {
+      "symbol": "PERSISTENT",
+      "token": "18365"
+    },
+    {
+      "symbol": "PETRONET",
+      "token": "11351"
+    },
+    {
+      "symbol": "PFIZER",
+      "token": "2643"
+    },
+    {
+      "symbol": "PHOENIXLTD",
+      "token": "14552"
+    },
+    {
+      "symbol": "PIDILITIND",
+      "token": "2664"
+    },
+    {
+      "symbol": "PEL",
+      "token": "2412"
+    },
+    {
+      "symbol": "POLYCAB",
+      "token": "9590"
+    },
+    {
+      "symbol": "POONAWALLA",
+      "token": "11403"
+    },
+    {
+      "symbol": "PFC",
+      "token": "14299"
+    },
+    {
+      "symbol": "POWERGRID",
+      "token": "14977"
+    },
+    {
+      "symbol": "PRESTIGE",
+      "token": "20302"
+    },
+    {
+      "symbol": "PGHH",
+      "token": "2535"
+    },
+    {
+      "symbol": "PNB",
+      "token": "10666"
+    },
+    {
+      "symbol": "RECLTD",
+      "token": "15355"
+    },
+    {
+      "symbol": "RVNL",
+      "token": "9552"
+    },
+    {
+      "symbol": "RAJESHEXPO",
+      "token": "7401"
+    },
+    {
+      "symbol": "RELAXO",
+      "token": "24225"
+    },
+    {
+      "symbol": "RELIANCE",
+      "token": "2885"
+    },
+    {
+      "symbol": "SBICARD",
+      "token": "17971"
+    },
+    {
+      "symbol": "SBILIFE",
+      "token": "21808"
+    },
+    {
+      "symbol": "SKFINDIA",
+      "token": "3186"
+    },
+    {
+      "symbol": "SRF",
+      "token": "3273"
+    },
+    {
+      "symbol": "MOTHERSON",
+      "token": "4204"
+    },
+    {
+      "symbol": "SCHAEFFLER",
+      "token": "1011"
+    },
+    {
+      "symbol": "SHREECEM",
+      "token": "3103"
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "token": "4306"
+    },
+    {
+      "symbol": "SIEMENS",
+      "token": "3150"
+    },
+    {
+      "symbol": "SOLARINDS",
+      "token": "13332"
+    },
+    {
+      "symbol": "SONACOMS",
+      "token": "4684"
+    },
+    {
+      "symbol": "STARHEALTH",
+      "token": "7083"
+    },
+    {
+      "symbol": "SBIN",
+      "token": "3045"
+    },
+    {
+      "symbol": "SAIL",
+      "token": "2963"
+    },
+    {
+      "symbol": "SUMICHEM",
+      "token": "17105"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "token": "3351"
+    },
+    {
+      "symbol": "SUNTV",
+      "token": "13404"
+    },
+    {
+      "symbol": "SUNDARMFIN",
+      "token": "3339"
+    },
+    {
+      "symbol": "SUNDRMFAST",
+      "token": "3345"
+    },
+    {
+      "symbol": "SUPREMEIND",
+      "token": "3363"
+    },
+    {
+      "symbol": "SYNGENE",
+      "token": "10243"
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "token": "8479"
+    },
+    {
+      "symbol": "TATACHEM",
+      "token": "3405"
+    },
+    {
+      "symbol": "TATACOMM",
+      "token": "3721"
+    },
+    {
+      "symbol": "TCS",
+      "token": "11536"
+    },
+    {
+      "symbol": "TATACONSUM",
+      "token": "3432"
+    },
+    {
+      "symbol": "TATAELXSI",
+      "token": "3411"
+    },
+    {
+      "symbol": "TATAMTRDVR",
+      "token": "16965"
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "token": "3456"
+    },
+    {
+      "symbol": "TATAPOWER",
+      "token": "3426"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "token": "3499"
+    },
+    {
+      "symbol": "TECHM",
+      "token": "13538"
+    },
+    {
+      "symbol": "NIACL",
+      "token": "399"
+    },
+    {
+      "symbol": "RAMCOCEM",
+      "token": "2043"
+    },
+    {
+      "symbol": "THERMAX",
+      "token": "3475"
+    },
+    {
+      "symbol": "TIMKEN",
+      "token": "14198"
+    },
+    {
+      "symbol": "TITAN",
+      "token": "3506"
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "token": "3518"
+    },
+    {
+      "symbol": "TORNTPOWER",
+      "token": "13786"
+    },
+    {
+      "symbol": "TRENT",
+      "token": "1964"
+    },
+    {
+      "symbol": "TRIDENT",
+      "token": "9685"
+    },
+    {
+      "symbol": "TIINDIA",
+      "token": "312"
+    },
+    {
+      "symbol": "UNOMINDA",
+      "token": "14154"
+    },
+    {
+      "symbol": "UPL",
+      "token": "11287"
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "token": "11532"
+    },
+    {
+      "symbol": "UNIONBANK",
+      "token": "10753"
+    },
+    {
+      "symbol": "UBL",
+      "token": "16713"
+    },
+    {
+      "symbol": "MCDOWELL-N",
+      "token": "10447"
+    },
+    {
+      "symbol": "VBL",
+      "token": "18921"
+    },
+    {
+      "symbol": "MANYAVAR",
+      "token": "8167"
+    },
+    {
+      "symbol": "VEDL",
+      "token": "3063"
+    },
+    {
+      "symbol": "VINATIORGA",
+      "token": "17364"
+    },
+    {
+      "symbol": "IDEA",
+      "token": "14366"
+    },
+    {
+      "symbol": "VOLTAS",
+      "token": "3718"
+    },
+    {
+      "symbol": "WHIRLPOOL",
+      "token": "18011"
+    },
+    {
+      "symbol": "WIPRO",
+      "token": "3787"
+    },
+    {
+      "symbol": "YESBANK",
+      "token": "11915"
+    },
+    {
+      "symbol": "ZFCVINDIA",
+      "token": "16915"
+    },
+    {
+      "symbol": "ZEEL",
+      "token": "3812"
+    },
+    {
+      "symbol": "ZOMATO",
+      "token": "5097"
+    },
+    {
+      "symbol": "ZYDUSLIFE",
+      "token": "7929"
+    }
+  ]

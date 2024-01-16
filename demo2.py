@@ -8,6 +8,8 @@ import time
 import json
 import datetime as dt
 from retry import retry
+import telebot
+
 
 start_time = time.time()
 
@@ -60,7 +62,7 @@ else:
 
         tokens_to_check = []
 
-        with open('output.json', 'r') as json_file:
+        with open('Nifty_500.json', 'r') as json_file:
             json_data = json.load(json_file)
 
 # Append JSON data to tokens_to_check array
@@ -83,20 +85,31 @@ else:
         @retry(exceptions=(requests.exceptions.RequestException), tries=5, delay=2, backoff=2)
         def fetch_candle_data(historicParam):
             # Your code to fetch historical data here
-            return smartApi.getCandleData(historicParam)["data"]            
+            return smartApi.getCandleData(historicParam)["data"]        
 
         # Fetch historical data for all tokens to avoid redundant API calls
         historic_data = {}
 
         tokens_left = len(tokens_to_check)
 
+
+        # ******this below code is used to fetch latest time which is nearest to 5
+        current_time = dt.datetime.now()
+        # Approximating to the nearest 5-minute interval
+        approximated_minute = current_time.minute // 5 * 5
+        approximated_time = current_time.replace(minute=approximated_minute)
+        # **********************
+
         for data in tokens_to_check:
             historicParam = {
                 "exchange": "NSE",
                 "symboltoken": data["token"],
                 "interval": "ONE_DAY",
-                "fromdate": "2023-12-15 09:30",
-                "todate": "2024-01-10 15:30"
+                "fromdate": (dt.datetime.now() - dt.timedelta(15)).date().strftime("%Y-%m-%d") + " 09:15",     #this code reduces 30 days from current date
+                "todate": approximated_time.strftime("%Y-%m-%d %H:%M")
+                # "fromdate": "2023-11-08 09:15",     #this code reduces 30 days from current date
+                # "todate": "2023-12-04 15:30"
+                
             }
             # candle_data = smartApi.getCandleData(historicParam)["data"]
             candle_data = fetch_candle_data(historicParam)
@@ -112,7 +125,7 @@ else:
             print("Tokens left : ", tokens_left)
             # print(len(tokens_to_check))
 
-            time.sleep(0.18)
+            time.sleep(0.22)
 
         # Save historic_data to a JSON file after the for loop completion, overwriting the existing file
         with open('historic_data.json', 'w') as outfile:
@@ -212,7 +225,7 @@ else:
                 current_day_body = candle_data[-1][4] - candle_data[-1][1]
 
                 # print(previous_day_body < 0)
-                # print(current_day_body > 0)
+                print(current_day_body > 0)
 
                 # print(previous_pattern(candle_data))
 
@@ -221,13 +234,18 @@ else:
                 current_open, current_close = candle_data[-1][1], candle_data[-1][4]
                 previous_open, previous_close = candle_data[-2][1], candle_data[-2][4]
                 
-                condition_1 = current_open > min(previous_open, previous_close)
-                condition_2 = current_close < max(previous_open, previous_close)
+                condition_1 = current_open > previous_close
+                condition_2 = current_close < previous_open
+                # condition_1 = current_open >= min(previous_open, previous_close)
+                # condition_2 = current_close < max(previous_open, previous_close)
+                condition_3 = current_day_body <= abs(0.25 * previous_day_body)
+                
+                
 
 
 
 
-                if previous_pattern(candle_data) and current_day_body > 0 and  previous_day_body < 0 and condition_1 and condition_2: 
+                if previous_pattern(candle_data) and current_day_body > 0 and  previous_day_body < 0 and condition_1 and condition_2 and condition_3: 
                     return True
                 else:
                     return False
