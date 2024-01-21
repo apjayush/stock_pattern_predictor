@@ -80,7 +80,6 @@ else:
                 return True
             else:
                 return False 
-            
         
         # ******this below code is used to fetch latest time which is nearest to 5
         current_time = dt.datetime.now()
@@ -103,17 +102,21 @@ else:
             historicParam = {
                     "exchange": "NSE",
                     "symboltoken": data["token"],
-                    "interval": "TEN_MINUTE",
+                    "interval": "ONE_DAY",
                     # "interval": "ONE_DAY",
                     # "fromdate": approximated_time.strftime("%Y-%m-%d") + " 09:15",     #this code reduces 30 days from current date
                     # "todate": approximated_time.strftime("%Y-%m-%d %H:%M")
-                    "fromdate": "2023-08-21 09:15",
-                    "todate": "2023-08-21 10:55"
+                    "fromdate": "2024-01-01 09:15",
+                    "todate": "2024-01-20 15:30"
             }
                 # candle_data = smartApi.getCandleData(historicParam)["data"]
             candle_data = fetch_candle_data(historicParam)
             historic_data[data["token"]] = candle_data
-            print(historic_data)
+            closing_p=[]
+            for data in candle_data:
+                closing_p.append(data[4])
+
+            print(closing_p)    
                 
                 # print(candle_data)
             print("Feeded historic data of token : ", data["token"] )
@@ -140,8 +143,9 @@ else:
                     current_close = candle_data[-1][4]
                     nature_of_candle = current_close - current_open
                     previous_highest = candle_data[-2][2]
+ 
 
-                    if nature_of_candle > 0 and current_open > previous_highest:
+                    if nature_of_candle > 0 and current_open > previous_highest :
                         return True
                     else:
                         return False
@@ -156,15 +160,20 @@ else:
                 try:
                     candle_data = historic_data.get(token)
 
-                    body = (candle_data[-1][4] - candle_data[-1][1])
+                    body = abs(candle_data[-1][4] - candle_data[-1][1])
                     upper_shadow = candle_data[-1][2] - max(candle_data[-1][1], candle_data[-1][4])
                     lower_shadow = abs(candle_data[-1][3] - min(candle_data[-1][1], candle_data[-1][4]))
 
-                    if  previous_pattern(candle_data) and lower_shadow > 2 * body and body > 0 and upper_shadow < 2 * lower_shadow :
+                   
+
+                    condition_1 = previous_pattern(candle_data) and lower_shadow > 4 * body and upper_shadow <= 0.1 * lower_shadow
+                    condition_2 = previous_pattern(candle_data) and upper_shadow > 4 * body and lower_shadow <= 0.1 * upper_shadow
+
+
+                    if condition_1 or condition_2  :
                         return True
                     else:
                         return False
-
                 except Exception as e:
                     # logger.exception(f"Error in checking hammer pattern for token {token}: {e}")
                     return False
@@ -179,6 +188,7 @@ else:
 
                     last_green_candle = candle_data[-1][4] - candle_data[-1][1]
                     previous_red_candle = candle_data[-2][4] - candle_data[-2][1]
+
 
 
                     if (
@@ -206,6 +216,7 @@ else:
                     # Calculate the difference between open and close prices
                     price_difference = abs(candle_data[-1][1] - candle_data[-1][4])
 
+
                     # Check if the difference is negligible (considering it as a Doji)
                     if price_difference <= 0.001 * candle_data[-1][4] and previous_pattern(candle_data) :  # Adjustable threshold, here 0.1% of close price
                         return True
@@ -222,9 +233,12 @@ else:
 
                     previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
                     current_day_body = candle_data[-1][4] - candle_data[-1][1]
-
-                    print(previous_day_body)
-                    print(current_day_body)
+                    current_high,current_low = candle_data[-1][2], candle_data[-1][3]
+                    previous_high,previous_low = candle_data[-2][2], candle_data[-2][3]
+                    
+                    
+                    # print(previous_day_body)
+                    # print(current_day_body)
 
                     # print(previous_day_body < 0)
                     # print(current_day_body > 0)
@@ -239,15 +253,12 @@ else:
                     condition_1 = current_open >= min(previous_open, previous_close)
                     condition_2 = current_close < max(previous_open, previous_close)
                     condition_3 = current_day_body <= abs(0.25 * previous_day_body)
-
-                    print(condition_1)
-                    print(condition_2)
-                    print(condition_3)
+                    condition_4 = current_high <= previous_high 
+                    condition_5 = current_low >= previous_low
 
 
 
-
-                    if previous_pattern(candle_data) and current_day_body > 0 and  previous_day_body < 0 and condition_1 and condition_2 and condition_3: 
+                    if previous_pattern(candle_data) and current_day_body > 0 and  previous_day_body < 0 and condition_1 and condition_2 and condition_3 and condition_4 and condition_5 : 
                         return True
                     else:
                         return False

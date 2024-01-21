@@ -41,8 +41,6 @@ if data['status'] == False:
     
 else:
         print("Connection sucess")
-        # login api call
-        # logger.info(f"You Credentials: {data}")
         authToken = data['data']['jwtToken']
         refreshToken = data['data']['refreshToken']
         # fetch the feedtoken
@@ -62,13 +60,15 @@ else:
 
         tokens_to_check = []
 
-        with open('Nifty_500.json', 'r') as json_file:
+        with open('test.json', 'r') as json_file:
             json_data = json.load(json_file)
 
 # Append JSON data to tokens_to_check array
         for item in json_data:
             token_symbol_dict = {"token": item["token"], "symbol": item["symbol"]}
             tokens_to_check.append(token_symbol_dict)
+
+        # print(tokens_to_check)    
 
 
         def get_stock_name_by_token(token):
@@ -90,8 +90,8 @@ else:
         # Fetch historical data for all tokens to avoid redundant API calls
         historic_data = {}
 
-        tokens_left = len(tokens_to_check)
 
+        tokens_left = len(tokens_to_check)
 
         # ******this below code is used to fetch latest time which is nearest to 5
         current_time = dt.datetime.now()
@@ -105,19 +105,19 @@ else:
                 "exchange": "NSE",
                 "symboltoken": data["token"],
                 "interval": "ONE_DAY",
-                "fromdate": (dt.datetime.now() - dt.timedelta(15)).date().strftime("%Y-%m-%d") + " 09:15",     #this code reduces 30 days from current date
-                "todate": approximated_time.strftime("%Y-%m-%d %H:%M")
-                # "fromdate": "2023-11-08 09:15",     #this code reduces 30 days from current date
-                # "todate": "2023-12-04 15:30"
+                # "fromdate": (dt.datetime.now() - dt.timedelta(30)).date().strftime("%Y-%m-%d") + " 09:15",     
+                # "todate": approximated_time.strftime("%Y-%m-%d %H:%M")
+                "fromdate": "2024-01-19 09:15",     #this code reduces 30 days from current date
+                "todate": "2024-01-20 15:30"
                 
             }
             # candle_data = smartApi.getCandleData(historicParam)["data"]
             candle_data = fetch_candle_data(historicParam)
             historic_data[data["token"]] = candle_data
-            # print(historic_data)
+            print(historic_data)
             
             # print(candle_data)
-            print("Feeded historic data of token : ", data["token"] )
+            # print("Feeded historic data of token : ", data["token"] )
             # end_time = time.time()
             # execution_time = end_time - start_time
             print("Time left (mins) : ", (tokens_left * 0.4)/60)
@@ -153,15 +153,19 @@ else:
                 
 
         # Function to check for the hammer pattern
-        def check_hammer_pattern(token, historic_data):
+        def standard_hammer_pattern(token, historic_data):
             try:
                 candle_data = historic_data.get(token)
 
-                body = (candle_data[-1][4] - candle_data[-1][1])
+                body = abs(candle_data[-1][4] - candle_data[-1][1])
                 upper_shadow = candle_data[-1][2] - max(candle_data[-1][1], candle_data[-1][4])
                 lower_shadow = abs(candle_data[-1][3] - min(candle_data[-1][1], candle_data[-1][4]))
 
-                if  previous_pattern(candle_data) and lower_shadow > 2 * body and body > 0 and upper_shadow < 2 * lower_shadow :
+                condition_1 = previous_pattern(candle_data) and lower_shadow > 4 * body and upper_shadow <= 0.1 * lower_shadow
+                condition_2 = previous_pattern(candle_data) and upper_shadow > 4 * body and lower_shadow <= 0.1 * upper_shadow
+
+
+                if condition_1 or condition_2  :
                     return True
                 else:
                     return False
@@ -223,9 +227,11 @@ else:
 
                 previous_day_body = candle_data[-2][4] - candle_data[-2][1]  #this body should must be red
                 current_day_body = candle_data[-1][4] - candle_data[-1][1]
+                current_high,current_low = candle_data[-1][2], candle_data[-1][3]
+                previous_high,previous_low = candle_data[-2][2], candle_data[-2][3]
 
                 # print(previous_day_body < 0)
-                print(current_day_body > 0)
+                # print(current_day_body > 0)
 
                 # print(previous_pattern(candle_data))
 
@@ -239,13 +245,15 @@ else:
                 # condition_1 = current_open >= min(previous_open, previous_close)
                 # condition_2 = current_close < max(previous_open, previous_close)
                 condition_3 = current_day_body <= abs(0.25 * previous_day_body)
+                condition_4 = current_high <= previous_high 
+                condition_5 = current_low >= previous_low
                 
                 
 
 
 
 
-                if previous_pattern(candle_data) and current_day_body > 0 and  previous_day_body < 0 and condition_1 and condition_2 and condition_3: 
+                if previous_pattern(candle_data) and current_day_body > 0 and  previous_day_body < 0 and condition_1 and condition_2 and condition_3 and condition_4 and condition_5: 
                     return True
                 else:
                     return False
@@ -290,7 +298,7 @@ else:
                 stock_name = get_stock_name_by_token(data["token"])
                 bullish_engulfing_stocks.append(stock_name)
 
-            if check_hammer_pattern(data["token"], historic_data):
+            if standard_hammer_pattern(data["token"], historic_data):
                 stock_name = get_stock_name_by_token(data["token"])
                 hammer_stocks.append(stock_name)
 
