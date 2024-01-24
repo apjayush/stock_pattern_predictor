@@ -76,31 +76,71 @@ else:
         def get_stock_name_by_token(token):
             for item in tokens_to_check:
                 if(item["token"]==token):
-                    return item["symbol"]       
+                    return item["symbol"]    
 
-        def EMA(ser, n=9):
-            multiplier = 2 / (n + 1)
-            sma = ser.rolling(n).mean()
-            ema = np.full(len(ser), np.nan)
+        def calculate_rsi(historic_data, window=14):
+    # Calculate price changes
+            for data in historic_data:
+                data['change'] = data['Close'].diff()
+
+                # Separate gains and losses
+                data['gain'] = data['change'].apply(lambda x: x if x >= 0 else 0.0)
+                data['loss'] = data['change'].apply(lambda x: abs(x) if x < 0 else 0.0)
+
+                # Calculate average gains and losses using the RMA (Exponential Moving Average)
+                data['avg_gain'] = data['gain'].ewm(span=window, adjust=False).mean()
+                data['avg_loss'] = data['loss'].ewm(span=window, adjust=False).mean()
+
+                # Calculate RS (Relative Strength)
+                data['rs'] = data['avg_gain'] / data['avg_loss']
+
+                # Calculate RSI using the formula
+                data['rsi'] = 100 - (100 / (1 + data['rs']))
+
+                # Drop temporary columns
+                data.drop(['change', 'gain', 'loss', 'avg_gain', 'avg_loss', 'rs'], axis=1, inplace=True)
+
+                return data           
+
+
+        def MA_200(historic_data, window=200):
+            for data in historic_data:
+                data['MA_200'] = data['Close'].rolling(window).mean()
+                return data
+        # def RMA(ser, n=14):
+        #     multiplier = 2 / (n + 1)
+        #     sma = ser.rolling(n).mean()
+        #     ema = np.full(len(ser), np.nan)
             
-            # Use iloc when accessing elements by position
-            ema[len(sma) - len(sma.dropna())] = sma.dropna().iloc[0]
+        #     # Use iloc when accessing elements by position
+        #     ema[len(sma) - len(sma.dropna())] = sma.dropna().iloc[0]
             
-            for i in range(len(ser)):
-                if not np.isnan(ema[i-1]):  
-                    ema[i] = ((ser.iloc[i] - ema[i-1]) * multiplier) + ema[i-1]
+        #     for i in range(len(ser)):
+        #         if not np.isnan(ema[i-1]):  
+        #             ema[i] = ((ser.iloc[i] - ema[i-1]) * multiplier) + ema[i-1]
             
-            ema[len(sma) - len(sma.dropna())] = np.nan
-            return ema
+        #     ema[len(sma) - len(sma.dropna())] = np.nan
+        #     return ema
+        
+        # def RSI(df_dict,n=14):
+        #      for df in df_dict:
+        #         df["Change"] = df["Close"] - df["Close"].shift(1)
+        #         df["Gain"] = np.where(df["Change"]>=0,df["Change"],0)
+        #         df["Loss"] = np.where(df["Change"]<0, -1*df["Change"],0)
+        #         df["avg_Gain"] = RMA(df["Gain"],n)
+        #         df["avg_Loss"] = RMA(df["Loss"],n)
+        #         df["rs"] = df["avg_Gain"]/df["avg_Loss"]
+        #         df["rsi"] = 100 - (100/(1+df["rs"]))
+        #         df.drop(["Change","Gain", "Loss","avg_Gain","rs"], axis=1, inplace=True)   
 
         
-        def MACD(df_dict,a=12,b=26,c=9):
-                for df in df_dict:
-                    df["ma_fast"] = EMA(df["Close"],a)
-                    df["ma_slow"] = EMA(df["Close"],b)
-                    df["macd"] = df["ma_fast"] - df["ma_slow"]
-                    df["signal"] = EMA(df["macd"],c)
-                    df.drop(["ma_fast", "ma_slow"],axis=1,inplace=True)
+        # def MACD(df_dict,a=12,b=26,c=9):
+        #         for df in df_dict:
+        #             df["ma_fast"] = EMA(df["Close"],a)
+        #             df["ma_slow"] = EMA(df["Close"],b)
+        #             df["MACD"] = df["ma_fast"] - df["ma_slow"]
+        #             df["SIGNAL"] = EMA(df["MACD"],c)
+        #             df.drop(["ma_fast", "ma_slow"],axis=1,inplace=True)
             
                 
     
@@ -129,8 +169,8 @@ else:
                 "interval": "ONE_DAY",
                 # "fromdate": (dt.datetime.now() - dt.timedelta(30)).date().strftime("%Y-%m-%d") + " 09:15",     
                 # "todate": approximated_time.strftime("%Y-%m-%d %H:%M")
-                "fromdate": "2023-05-01 09:15",     #this code reduces 30 days from current date
-                "todate": "2024-01-20 15:30"
+                "fromdate": "2023-01-01 09:15",     #this code reduces 30 days from current date
+                "todate": "2024-01-20 15:29"
                 
             }
             # candle_data = smartApi.getCandleData(historicParam)["data"]
@@ -140,8 +180,11 @@ else:
             df_data.set_index("Date",inplace=True)
             historic_data.append(df_data)
             # print(df_data)
-            MACD(historic_data)
-            print(f"DataFrame after MACD calculations for {get_stock_name_by_token(data['token'])}:\n{historic_data[-1]}")
+            # print(historic_data)
+            print(calculate_rsi(historic_data))
+            print(MA_200(historic_data))
+            # print(f"DataFrame after MACD calculations for {get_stock_name_by_token(data['token'])}:\n{calculate_rsi(historic_data)}")
+            time.sleep(0.2)
 
 
 
